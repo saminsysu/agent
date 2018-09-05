@@ -1,7 +1,5 @@
 import oslo_messaging
 
-
-
 class ServerControlEndpoint(object):
 
     target = oslo_messaging.Target(namespace='control',
